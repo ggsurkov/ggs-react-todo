@@ -4,7 +4,7 @@ function Button(props) {
     return(
         <button className={props.className} onClick={props.onClick} {...props}>
             {props.icon ?
-                <i className="material-icon">{props.icon}</i>
+                <i className="material-icons">{props.icon}</i>
                 :
                 props.children
             }

@@ -1,12 +1,15 @@
 {
-  "name": "react-basics",
-  "version": "1.0.0",
-  "description": "Исходный код для курса Основы React",
+  "name": "ggs-react-todo",
+  "version": "0.1.0",
+  "description": "Simple React Todo app",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --content-base ./public",
     "build": "webpack -p"
   },
   "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.2",
     "react": "15.4.2",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "15.4.2"
